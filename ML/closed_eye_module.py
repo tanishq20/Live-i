@@ -1,6 +1,6 @@
 import cv2 as cv
 
-video = cv.VideoCapture(0)
+# video = cv.VideoCapture(0)
 
 class EyeDetector:
     def __init__(self):
@@ -12,7 +12,8 @@ class EyeDetector:
 
     def detect_eyes(self, img):
         # Convert img to grayscale as that is what the haarcascade expects the img to be
-        img_gray = cv.cvtColor(img, cv.COLOR_BGR2GRAY)
+        type(img)
+        img_gray = cv.cvtColor(img, cv.COLOR_RGB2GRAY)
 
         # Detect faces in the image
         faces = self.face_cascade.detectMultiScale(img_gray, scaleFactor=1.1,  minNeighbors=5, minSize=(30,30))
@@ -42,9 +43,11 @@ def main():
     eye_detector = EyeDetector()
 
     while True:
-        s, img = video.read()
-        img = eye_detector.detect_eyes(img)
-        cv.imshow("sleep", img)
+        success, img = video.read()
+        print(success,"aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa")
+        if success ==True:
+            img = eye_detector.detect_eyes(img)
+            cv.imshow("sleep", img)
         if cv.waitKey(1) & 0xFF == ord("q"):
             break
 

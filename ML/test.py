@@ -10,8 +10,8 @@ eye_detector = EyeDetector()
 while True:
     success, img = video.read()
     img = ph_detector.detect(img, draw=True)
-    #img = steer.track_hands(img=img, draw=True)
-    #img = eye_detector.detect_eyes(img)
+    img = steer.track_hands(img=img, draw=True)
+    img = eye_detector.detect_eyes(img)
     cv.imshow("Webcam", img)
     if cv.waitKey(1) & 0xFF == ord("q"):
         break

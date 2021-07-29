@@ -51,7 +51,7 @@ class PhoneDetector:
         return img
 
     def detect(self, img, draw=True):
-
+        # print(type(img))
         blob = cv.dnn.blobFromImage(img, 1/255, (self.whT, self.whT), [0,0,0] ,1, crop=False)
         self.net.setInput(blob)
 
@@ -70,8 +70,9 @@ def main():
 
     while True:
         success, img = video.read()
-        img = ph_detector.detect(img, draw=True)
-        cv.imshow("Webcam", img)
+        if success == 1:
+            img = ph_detector.detect(img, draw=True)
+            cv.imshow("Webcam", img)
         if cv.waitKey(1) & 0xFF == ord("q"):
             break
 

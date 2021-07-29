@@ -54,7 +54,7 @@ def main():
     video = cv.VideoCapture(0)
     steer = HandSteer(max_hands=2, min_detect_conf=0.9)
     while True:
-        s, img = video.read()
+        success, img = video.read()
         img = steer.track_hands(img=img, draw=True)
         cv.imshow("Steer", img)
         if cv.waitKey(1) & 0xFF == ord("q"):
