@@ -1,3 +1,10 @@
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://github.com/tanishq20)
+[![Ask Me Anything !](https://img.shields.io/badge/Ask%20me-anything-1abc9c.svg)](https://github.com/tanishq20)
+[![GitHub forks](https://img.shields.io/github/forks/saswatamcode/the_shoppies?style=social)](https://github.com/tanishq20/Live-i/network/members)
+[![GitHub stars](https://img.shields.io/github/stars/saswatamcode/the_shoppies?style=social)](https://github.com/tanishq20/Live-i/stargazers)
+[![GitHub issues](https://img.shields.io/github/issues/saswatamcode/the_shoppies.svg)](https://github.com/tanishq20/Live-i/issues)
+[![Open Source Love svg1](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)](https://github.com/ellerbrock/open-source-badges/)
 # HackX'21 SPS VIT
 ### TEAM HASH
 </a>
