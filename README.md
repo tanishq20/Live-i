@@ -1,8 +1,7 @@
 # HackX'21 SPS VIT
-
+### TEAM HASH
 </a>
 	<h2> Live-i </h2>
-	<h5> TEAM HASH </h5>
 </p>
 
 ## Problem Statement
@@ -17,8 +16,7 @@ Detects
 - [ ]  Improper grip of steering
 - [ ]  Drowsiness
 - [ ]  Looking away for too long
-- [ ]  
-
+- [ ]  Eating,Drinking etc.
 
 ## Tech Stack
 
