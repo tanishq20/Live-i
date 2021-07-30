@@ -10,7 +10,9 @@
 </a>
 	<h2> Live-i </h2>
 	<a href="https://github.com/tanishq20/Live-i/frontend/static/image/logo1.png">
-	<img src="https://github.com/tanishq20/Live-i/frontend/static/image/logo1.png" width=10%/>
+<!-- 	<img src="https://github.com/tanishq20/Live-i/frontend/static/image/logo1.png" width=10%/> -->
+	<img src="https://ibb.co/c8Gbvf1" width=10%/>
+	
 </p>
 
 ## Domain Name
