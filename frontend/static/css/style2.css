@@ -70,7 +70,7 @@ header {
   font-size: 25px;
   padding: 0 10px;
   background-color: #f3ec78;
-  background-image: linear-gradient(55deg, #e6a927, #ffffff);
+  background-image: linear-gradient(55deg, #e6a927, #ffedb9);
   background-size: 100%;
   -webkit-background-clip: text;
   -moz-background-clip: text;
@@ -94,6 +94,10 @@ header {
 /* .navbar .navbar-right{
       position:absolute;
     } */
+a.active {
+  background-color: white;
+  background-image: linear-gradient(55deg, #ffff, #ffffff);
+}
 
 @media (max-width: 1000px) and (min-width: 769px) {
   .navbar a {
@@ -216,6 +220,11 @@ h3 {
   width: 45%;
   margin: 10px auto;
 }
+@media (max-width: 991px) {
+  .five {
+    width: 97%;
+  }
+}
 @media (max-width: 410px) {
   .steps {
     height: 19vh;
@@ -229,6 +238,7 @@ h3 {
 .section1 img {
   height: 10%;
   padding: auto;
+  margin: 20px 0;
 }
 .section1 button {
   padding: 10px;

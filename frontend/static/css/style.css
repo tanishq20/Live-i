@@ -58,7 +58,7 @@ nav#start.navbar.navbar-default {
   background-color: #f3ec78;
   /* background-image: linear-gradient(55deg, #e6a927, #0e0000); */
 
-  background-image: linear-gradient(55deg, #e6a927, #ffffff);
+  background-image: linear-gradient(55deg, #e6a927, #ffedb9);
   background-size: 100%;
   -webkit-background-clip: text;
   -moz-background-clip: text;
@@ -66,7 +66,7 @@ nav#start.navbar.navbar-default {
   -moz-text-fill-color: transparent;
 }
 
-.navbar a .active {
+a.active {
   background-color: white;
   background-image: linear-gradient(55deg, #ffff, #ffffff);
 }
