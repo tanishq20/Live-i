@@ -10,7 +10,7 @@
 </a>
 	<h2> Live-i </h2>
 	<a href="https://github.com/tanishq20/Live-i/blob/main/frontend/static/image/logo1.png">
-	<img height="40px" width="50px" src="https://github.com/tanishq20/Live-i/blob/main/frontend/static/image/logo1.png">
+	<img height="50px" width="50px" src="https://github.com/tanishq20/Live-i/blob/main/frontend/static/image/logo1.png">
 	
 </p>
 
