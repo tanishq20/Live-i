@@ -6,13 +6,14 @@
 [![GitHub issues](https://img.shields.io/github/issues/saswatamcode/the_shoppies.svg)](https://github.com/tanishq20/Live-i/issues)
 [![Open Source Love svg1](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)](https://github.com/ellerbrock/open-source-badges/)
 # HackX'21 SPS VIT
-### TEAM HASH
-</a>
-	<h2> Live-i </h2>
+<p align="center">
 	<a href="https://github.com/tanishq20/Live-i/blob/main/frontend/static/image/logo1.png">
-	<img height="50px" width="50px" src="https://github.com/tanishq20/Live-i/blob/main/frontend/static/image/logo1.png">
-	
+	<img height="50px" width="50px" src="https://github.com/tanishq20/Live-i/blob/main/frontend/static/image/logo1.png"></a>
+	<h2> Live-i </h2>
+	<h4>TEAM HASH </h4>
 </p>
+	
+
 
 ## Domain Name
 Voice and Image Processing
