@@ -1,14 +1,14 @@
 # HackX'21 SPS VIT
 
 </a>
-	<h2 align="center"> Live-i </h2>
-	<h5 align="center"> TEAM HASH </h5>
+	<h2> Live-i </h2>
+	<h5> TEAM HASH </h5>
 </p>
 
-## PROBLEM STATEMENT
+## Problem Statement
 According to the most recent published World Health Organization (WHO) report, it was estimated that nearly 1.25 million people were killed on the roads worldwide, making road traffic injuries a leading cause of death globally. Distracted driving is a serious and growing threat to road safety. Collisions caused by distracted/inattentive driving have captured the attention of the US Government and professional medical organizations during the last years. They have estimated that distraction and inattention account for somewhere between 25% and 75% of all or near crashes.
 
-## ABSTRACT
+## Abstract
 Driver distraction, defined as the diversion of attention away from activities-critical for safe driving, is increasingly recognized as a significant source of injuries and fatalities on the roadway. With an aim to minimize accidents due to distraction, we have developed this live-i which would beep anytime the system detected that the driver had crossed the threshold for unsafe driving. Activities such as looking away, using electronics, improper grip of steering, drowsiness are detectable using this device. Developed as a software/hardware design that could be retrofitted to any vehicle and uses only camera input to alert drivers at times when they are too distracted.
 
 ## Functionalities
@@ -33,7 +33,7 @@ Detects
 	-  FLASK
 * Deployment:
 
-## METHODOLOGY AND ALGORITHMS
+## Methodology & Algorithms
 
 - [ ]  
 - [ ]  
