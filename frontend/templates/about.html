@@ -1,71 +1,178 @@
 <html>
-  <head>
-    <meta charset="UTF-8">
+
+<head>
+  <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Document</title>
+  <title>Live-i | About</title>
   <script src="https://kit.fontawesome.com/a507955c58.js" crossorigin="anonymous"></script>
-  <!-- <link rel="preconnect" href="https://fonts.gstatic.com"> -->
-  <!-- <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap" rel="stylesheet"> -->
   <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
-  <link href="image1.jpeg" rel="icon">
-  <!-- <link rel="stylesheet" href="./style1.css"> -->
-  <link rel="stylesheet" href="{{ url_for('static', filename='css/style1.css') }}">
-  </head>
-  <body>
-    
-    <div class='particle-network-animation'>
-    </div>
-    <div class="header">
-  
-      <nav class="navbar navbar-default" id="start">
-        <div class="navbar-header">
-          <div id="mobilelogo"><a href="index.html" class="logo"> <img src="{{ url_for('static', filename='image/logo.jpg') }}" alt="Logo" height="80px"
-                width="80px"> </a></div>
-          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-nav-demo"
-            aria-expanded="false">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/style2.css') }}">
+  <link href="{{ url_for('static', filename='image/logo1.png') }}" rel="icon">
+</head>
+
+<body>
+
+  <div class='particle-network-animation'>
+  </div>
+  <div class="header">
+
+    <nav class="navbar navbar-default" id="start">
+      <div class="navbar-header">
+        <div id="mobilelogo"><a href="index.html" class="logo"> <img
+              src="{{ url_for('static', filename='image/logo1.png') }}" alt="Logo" height="80px" width="80px"> </a></div>
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-nav-demo"
+          aria-expanded="false">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+      </div>
+
+      <div class="collapse navbar-collapse" id="bs-nav-demo">
+
+        <div class="navbar navbar-right ">
+          <a href="index.html" class="logo"> <img src="{{ url_for('static', filename='image/logo1.png') }}" alt="Logo"
+              height="80px" width="80px">Live-i</a>
+          <ul>
+            <a href="index.html"><span>Home</span></a>
+            <a class="active" href="about.html"><span>About Live-i</span></a>
+            <a href="team.html"><span>Team</span></a>
+          </ul>
         </div>
-  
-        <div class="collapse navbar-collapse" id="bs-nav-demo">
-  
-          <div class="navbar navbar-right ">
-            <a href="index.html" class="logo"> <img src="{{ url_for('static', filename='image/logo1.png') }}" alt="Logo" height="80px" width="80px">Live-i</a>
-            <ul>
-              <a class="active" href="index.html"><span>Home</span></a>
-              <a href="about.html"><span>About Project</span></a>
-              <a href="team.html"><span>Team</span></a>
-            </ul>
-          </div>
+      </div>
+    </nav>
+  </div>
+
+  <section class="section1 container">
+    <center>
+      <h2>Let's have a Look at the idea of innovation</h2>
+    </center>
+    <h3>Problem statement</h3>
+    <p>According to the most recent published World Health Organization (WHO) report, it was estimated that nearly 1.25
+      million people were killed on the
+      roads worldwide, making road traffic injuries a leading cause of death globally. Distracted driving is a serious
+      and growing threat to road safety.
+      Collisions caused by distracted/inattentive driving have captured the attention of the US Government and
+      professional medical organizations during the
+      last years. They have estimated that distraction and inattention account for somewhere between 25% and 75% of all
+      or near crashes.</p>
+    <hr>
+    <h3>Abstract</h3>
+    <p>Driver distraction, defined as the diversion of attention away from activities-critical for safe driving, is
+      increasingly recognized as a significant
+      source of injuries and fatalities on the roadway. With an aim to minimize accidents due to distraction, we have
+      developed this live-i which would
+      beep anytime the system detected that the driver had crossed the threshold for unsafe driving. Activities such as
+      looking away, using electronics,
+      improper grip of steering, drowsiness are detectable using this device. Developed as a software/hardware design
+      that could be retrofitted to any
+      vehicle and uses only camera input to alert drivers at times when they are too distracted.</p>
+    <hr>
+    <h3>Novelty</h3>
+    <p>Our idea of <span style="color:red">live-i</span> is very original and unique as it is one of it's own kind. It
+      could detect
+      drowsiness, and a myriad range of activities such as
+      using electronics, looking away for too long, eating, drinking etc. If there ever be an accident, it would
+      immediately demonstrate whether the driver
+      was distracted at the time! While designing, several requirements have been taken into account: reliability,
+      real-time performance, low cost, small
+      size, flexibility and short time-to-market. </p>
+    <hr>
+    <h3>Teck Stack </h3>
+    <img src="{{ url_for('static', filename='image/tech1.png') }}" alt="tech">
+    <img src="{{ url_for('static', filename='image/tech4.png') }}" alt="tech">
+    <img src="{{ url_for('static', filename='image/tech5.png') }}" alt="tech">
+    <img src="{{ url_for('static', filename='image/tech8.png') }}" alt="tech">
+    <img src="{{ url_for('static', filename='image/tech2.png') }}" alt="tech">
+    <img src="{{ url_for('static', filename='image/tech3.png') }}" alt="tech">
+    <img src="{{ url_for('static', filename='image/tech6.png') }}" alt="tech">
+    <img src="{{ url_for('static', filename='image/tech7.png') }}" alt="tech">
+
+
+    <!-- <p>
+    <ul>
+      <li>Mediapipe</li>
+      <li>Flask</li>
+      <li>OpenCv</li>
+      <li>HTML 5</li>
+      <li>CSS 3</li>
+      <li>Javascript</li>
+      <li>Bootstrap</li>
+    </ul>
+    </p> -->
+    <hr>
+    <h3>Implementation</h3>
+    <div class="row">
+      <div class="col-md-6">
+        <div class="steps">
+          <p>Step 1</p>
+          <ul>
+            <li>Planning the project and its functionality.</li>
+            <li>Making pseudo website design.</li>
+          </ul>
         </div>
-      </nav>
+      </div>
+      <div class="col-md-6 ">
+        <div class="steps">
+          <p>Step 2</p>
+          <ul>
+            <li>Shortlisting Machine Learning Algorithms to use.</li>
+            <li>Website Design Implementation.</li>
+          </ul>
+        </div>
+      </div>
     </div>
-    <div class="background">
-  
-    <section class="section1">
-       <h2>Let's have a Look at the idea of innovation</h2>
-       <h4>Problem statement</h4>
-       <p>According to the most recent published World Health Organization (WHO) report, it was estimated that nearly 1.25 million people were killed on the 
-           roads worldwide, making road traffic injuries a leading cause of death globally. Distracted driving is a serious and growing threat to road safety. 
-           Collisions caused by distracted/inattentive driving have captured the attention of the US Government and professional medical organizations during the
-            last years. They have estimated that distraction and inattention account for somewhere between 25% and 75% of all or near crashes.</p>
-        <h2>Abstract</h2>
-        <p>Driver distraction, defined as the diversion of attention away from activities-critical for safe driving, is increasingly recognized as a significant
-             source of injuries and fatalities on the roadway. With an aim to minimize accidents due to distraction, we have developed this live-i which would 
-             beep anytime the system detected that the driver had crossed the threshold for unsafe driving. Activities such as looking away, using electronics,
-              improper grip of steering, drowsiness are detectable using this device. Developed as a software/hardware design that could be retrofitted to any 
-              vehicle and uses only camera input to alert drivers at times when they are too distracted.</p>
-        <h2></h2>
-    </section>
-</div>
-    <footer>
-      <center>
-        <p>&copy; Hash 2021. All rights reserved | Made with <i class="fas fa-heartbeat" style="color: red;"></i></p>
-      </center>
-    </footer>
+
+    <div class="row">
+      <div class="col-md-6">
+        <div class="steps">
+          <p>Step 3</p>
+          <ul>
+            <li>Trying different ML algorithms and selecting the optimum model.</li>
+          </ul>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="steps">
+          <p>Step 4</p>
+          <ul>
+            <li>Connecting Machine Learning project with the frontend using Flask as backend.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    </div>
+
+    <div class="row">
+      <div class="col-md-12">
+        <div class="steps five">
+          <p>Step 5</p>
+          <ul>
+            <li>Deploying the project.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    </div>
+
+
+
+    <hr>
+    <h3>Business Scope</h3>
+    <p>The software/hardware design can be sold to company's like Uber, Ola which are widely used transportation
+      companys. The installation of it in cars, taxis will not only avoid road accidents, but will also help company
+      owners to know the efficiency of their drivers.
+      This will be a new & easy opportunity for ticketing when installed in public places.</p>
+
+    <center><a href="index.html#section2"><button type="menu">Try the Demonstration</button></a></center>
+  </section>
+
+  <footer>
+    <center>
+      <p>&copy; Hash 2021. All rights reserved | Made with <i class="fas fa-heartbeat" style="color: red;"></i></p>
+    </center>
+  </footer>
   <!-- <script type="text/javascript" src="java.js"></script> -->
   <script src="https://code.jquery.com/jquery-2.1.4.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
@@ -79,5 +186,6 @@
   <script src='https://cdnjs.cloudflare.com/ajax/libs/snap.svg/0.5.1/snap.svg.js'></script>
   <script src="processscript.js"></script>
   <!-- process script end  -->
-  </body>
+</body>
+
 </html>

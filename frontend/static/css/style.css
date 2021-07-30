@@ -1,3 +1,170 @@
+.navbar a:hover {
+  background-image: linear-gradient(45deg, #585858, #f3f3f3);
+  background-color: #e60a48;
+  /* display: none; */
+}
+
+header {
+  padding: 40px;
+}
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+.navbar-default .navbar-toggle {
+  border-color: white;
+  top: 30px;
+}
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: white;
+  border-color: #065656;
+}
+.navbar-default .navbar-toggle:hover {
+  background-color: white;
+}
+.navbar-default .navbar-toggle:hover .icon-bar {
+  background-color: #1a1f1f;
+}
+
+.navbar {
+  width: 100%;
+  border: none;
+  overflow: hidden;
+  background-color: rgb(40, 40, 61);
+  /* background-color: white; */
+  /* background-image: url('image.jpg'); */
+  background-size: cover;
+  display: inline-block !important;
+}
+.navbar .navbar-right {
+  padding: 0;
+  margin: 0 0 0 0;
+}
+nav#start.navbar.navbar-default {
+  margin: 0;
+  padding: 0;
+}
+.navbar a {
+  margin-left: 20px;
+  margin-top: 17px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 15px;
+  font-weight: bold;
+  /* color: cornflowerblue; */
+  font-size: 25px;
+  padding: 0 10px;
+  background-color: #f3ec78;
+  /* background-image: linear-gradient(55deg, #e6a927, #0e0000); */
+
+  background-image: linear-gradient(55deg, #e6a927, #ffffff);
+  background-size: 100%;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+}
+
+.navbar a .active {
+  background-color: white;
+  background-image: linear-gradient(55deg, #ffff, #ffffff);
+}
+
+.navbar ul a:hover {
+  /* background-color: white; */
+  color: cornflowerblue;
+  border-radius: 20px;
+  padding: 5px;
+}
+.navbar ul {
+  float: right;
+  position: relative;
+  padding-right: 60px;
+  padding-top: 25px;
+}
+
+/* .navbar .navbar-right{
+    position:absolute;
+  } */
+
+@media (max-width: 1000px) and (min-width: 769px) {
+  .navbar a {
+    font-size: 25px;
+    margin-top: 20px;
+    margin-left: 5px;
+  }
+  .navbar ul {
+    padding-right: 10px;
+    padding-top: 20px;
+  }
+  .navbar ul a i {
+    padding: 10px;
+  }
+}
+
+@media (max-width: 767px) {
+  .navbar ul {
+    float: none;
+    padding-right: 0;
+    padding: 0 0 0 0;
+    margin: 0 0 0;
+  }
+  .navbar {
+    height: auto;
+  }
+
+  .navbar a {
+    margin-left: 0;
+    float: none;
+    width: 100%;
+    /* display: block; */
+    text-align: center;
+  }
+  .navbar a img {
+    align-content: center;
+  }
+  .header ul a {
+    float: none;
+    display: block;
+    text-align: center;
+    padding-bottom: 10px;
+  }
+  html,
+  body {
+    overflow-x: hidden;
+  }
+  body {
+    width: 100%;
+  }
+  /* .navbar .navbar-right{
+    position:relative;
+  } */
+}
+html,
+body {
+  overflow-y: auto;
+}
+#mobilelogo {
+  display: none;
+}
+@media (max-width: 768px) {
+  .navbar .navbar-right a.logo {
+    display: none;
+  }
+  #mobilelogo {
+    display: inline;
+  }
+  .navbar a {
+    /* text-align: left; */
+    display: inline;
+  }
+  #mobilelogo img {
+    margin: 8px;
+  }
+}
+
+/*header end*/
 @import url('https://fonts.googleapis.com/css?family=Contrail+One|Passion+One|Quicksand');
 #textmain {
   color: white;
@@ -117,9 +284,13 @@ h4 {
 .section-team {
   font-family: 'Poppins', sans-serif;
   padding: 30px 0;
-  background-color: black;
+  /* background-color: black; */
+  background-color: white;
 }
-
+h2.title {
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+}
 .section-team .header-section {
   margin-bottom: 50px;
 }
@@ -139,7 +310,8 @@ h4 {
 .section-team .single-person {
   margin-top: 30px;
   padding: 30px;
-  background-color: #f6f9ff;
+  /* background-color: #f6f9ff; */
+  background-color: #ffc1070f;
   border-radius: 5px;
 }
 
@@ -189,7 +361,7 @@ h4 {
 
 .section-team .single-person .person-info .full-name {
   margin-bottom: 10px;
-  font-size: 28px;
+  font-size: 21px;
   font-weight: 700;
 }
 
@@ -210,3 +382,18 @@ h4 {
 .full-name:hover .speciality {
   color: #fff;
 }
+.search.card {
+  background-color: rgb(90 91 115) !important;
+}
+/* footer */
+footer {
+  background-color: rgb(40, 40, 61);
+  margin: 0;
+  width: 100%;
+}
+footer p {
+  color: white;
+  margin: 0;
+  font-size: 14px;
+}
+/* footer end */
