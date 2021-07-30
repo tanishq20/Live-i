@@ -13,6 +13,9 @@
 	<img src="https://github.com/tanishq20/Live-i/frontend/static/image/logo1.png" width=10%/>
 </p>
 
+## Domain Name
+Voice and Image Processing
+
 ## Problem Statement
 According to the most recent published World Health Organization (WHO) report, it was estimated that nearly 1.25 million people were killed on the roads worldwide, making road traffic injuries a leading cause of death globally. Distracted driving is a serious and growing threat to road safety. Collisions caused by distracted/inattentive driving have captured the attention of the US Government and professional medical organizations during the last years. They have estimated that distraction and inattention account for somewhere between 25% and 75% of all or near crashes.
 
@@ -29,8 +32,10 @@ Detects
 
 ## Tech Stack
 
-* Machine Learning:
-	
+* :
+    - Mediapipe
+    - OpenCv
+    - Python
 	
 * Web:
 	-  HTML
@@ -42,8 +47,8 @@ Detects
 
 ## Methodology & Algorithms
 
-- [ ]  
-- [ ]  
+- [ ]  CNN
+- [ ]  YOLO
 - [ ]  
 - [ ] 
 - [ ]  
