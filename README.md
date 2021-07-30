@@ -8,7 +8,7 @@
 # HackX'21 SPS VIT
 <p align="center">
 	<a href="https://github.com/tanishq20/Live-i/blob/main/frontend/static/image/logo1.png">
-	<img height="50px" width="50px" src="https://github.com/tanishq20/Live-i/blob/main/frontend/static/image/logo1.png" width=10%></a>
+	<img height="50px" width="50px" src="https://github.com/tanishq20/Live-i/blob/main/frontend/static/image/logo1.png" width=30%></a>
 	<h2 align="center"> Live-i </h2>
 	<h4 align="center"> TEAM HASH </h4>
 </p>
