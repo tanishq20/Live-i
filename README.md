@@ -52,6 +52,12 @@ Detects
 - [ ]  CNN
 - [ ]  YOLO
 
+## Accuracy & Graphs
+* Mobile Net Accuracy
+	- 89.99%
+* Epoch Accuracy
+* Epoch Loss
+
 ## Our Team 
 
 <table>
