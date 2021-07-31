@@ -62,15 +62,20 @@ Detects
 
 - Mobile Net Accuracy
   - 89.99%
-  ![alt text](https://raw.githubusercontent.com/tanishq20/Live-i/main/frontend/static/image/mobile_net_accuracy.png)
+  - ![alt text](https://raw.githubusercontent.com/tanishq20/Live-i/main/frontend/static/image/mobile_net_accuracy.png)
 - Epoch Accuracy ![alt text](https://raw.githubusercontent.com/tanishq20/Live-i/main/frontend/static/image/accuracy_epoch.png)
 - Epoch Loss ![alt text](https://raw.githubusercontent.com/tanishq20/Live-i/main/frontend/static/image/epoch_loss.png)
 
 ## [PPT Link](https://bit.ly/ppt-link)
 
     https://bit.ly/ppt-link
-
-## Our Team
+    
+## Website Interface
+![alt text](https://github.com/tanishq20/Live-i/blob/main/frontend/static/image/web1.jpeg)
+![alt text](https://github.com/tanishq20/Live-i/blob/main/frontend/static/image/web2.jpeg)
+![alt text](https://github.com/tanishq20/Live-i/blob/main/frontend/static/image/web3.jpeg)
+![alt text](https://github.com/tanishq20/Live-i/blob/main/frontend/static/image/web4.jpeg)
+## Team HASH 
 
 <table>
 <tr align="center">
