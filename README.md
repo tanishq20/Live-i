@@ -31,11 +31,13 @@ Driver distraction, defined as the diversion of attention away from activities-c
 
 Detects
 
-- [ ] Using electronics
+- [ ] Using electronics like texting, being on a call or operating the radio
 - [ ] Improper grip of steering
 - [ ] Drowsiness
 - [ ] Looking away for too long
 - [ ] Eating,Drinking etc.
+- [ ] Talking to the passenger
+- [ ] Reaching behind
 
 ## Tech Stack
 
@@ -49,22 +51,22 @@ Detects
   - JAVASCRIPT
   - BOOTSTRAP
   - FLASK
-- Deployment:
 
 ## Methodology & Algorithms
 
 - [ ] CNN
 - [ ] YOLO
+- [ ] MobileNet Model
 
 ## Accuracy & Graphs
 
 - Mobile Net Accuracy
   - 89.99%
-  - ![alt text](https://raw.githubusercontent.com/tanishq20/Live-i/main/frontend/static/image/mobile_net_accuracy.png)
+  ![alt text](https://raw.githubusercontent.com/tanishq20/Live-i/main/frontend/static/image/mobile_net_accuracy.png)
 - Epoch Accuracy ![alt text](https://raw.githubusercontent.com/tanishq20/Live-i/main/frontend/static/image/accuracy_epoch.png)
 - Epoch Loss ![alt text](https://raw.githubusercontent.com/tanishq20/Live-i/main/frontend/static/image/epoch_loss.png)
 
-## PPT Link
+## [PPT Link](https://bit.ly/ppt-link)
 
     https://bit.ly/ppt-link
 
