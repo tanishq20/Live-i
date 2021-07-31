@@ -15,7 +15,6 @@
 	<h4 align="center"> TEAM HASH </h4>
 </p>
 
-
 ## Domain Name
 
 Voice and Image Processing
@@ -65,7 +64,9 @@ Detects
 - Epoch Accuracy -![alt text](https://raw.githubusercontent.com/tanishq20/Live-i/main/frontend/static/image/accuracy_epoch.png)
 - Epoch Loss -![alt text](https://raw.githubusercontent.com/tanishq20/Live-i/main/frontend/static/image/epoch_loss.png)
 
-[PPT Link](https://www.canva.com/design/DAEllxwVT6I/mWjn-9YcdzduczRLFoDlAw/view?utm_content=DAEllxwVT6I&utm_campaign=designshare&utm_medium=link&utm_source=sharebutton)
+## PPT Link
+
+    https://bit.ly/ppt-link
 
 ## Our Team
 
