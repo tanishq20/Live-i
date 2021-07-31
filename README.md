@@ -34,7 +34,7 @@ Detects
 
 ## Tech Stack
 
-* :
+* Computer Machine:
     - Mediapipe
     - OpenCv
     - Python
@@ -51,10 +51,6 @@ Detects
 
 - [ ]  CNN
 - [ ]  YOLO
-- [ ]  
-- [ ] 
-- [ ]  
-
 
 ## Our Team 
 
