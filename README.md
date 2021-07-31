@@ -34,7 +34,7 @@ Detects
 
 ## Tech Stack
 
-* Computer Machine:
+* Computer Vision:
     - Mediapipe
     - OpenCv
     - Python
