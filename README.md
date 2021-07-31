@@ -5,67 +5,72 @@
 [![GitHub stars](https://img.shields.io/github/stars/saswatamcode/the_shoppies?style=social)](https://github.com/tanishq20/Live-i/stargazers)
 [![GitHub issues](https://img.shields.io/github/issues/saswatamcode/the_shoppies.svg)](https://github.com/tanishq20/Live-i/issues)
 [![Open Source Love svg1](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)](https://github.com/ellerbrock/open-source-badges/)
+
 # HackX'21 SPS VIT
+
 <p align="center">
 	<a href="https://github.com/tanishq20/Live-i/blob/main/frontend/static/image/logo1.png">
 	<img height="50px" width="50px" src="https://github.com/tanishq20/Live-i/blob/main/frontend/static/image/logo1.png" width=30%></a>
 	<h2 align="center"> Live-i </h2>
 	<h4 align="center"> TEAM HASH </h4>
 </p>
-	
 
 
 ## Domain Name
+
 Voice and Image Processing
 
 ## Problem Statement
+
 According to the most recent published World Health Organization (WHO) report, it was estimated that nearly 1.25 million people were killed on the roads worldwide, making road traffic injuries a leading cause of death globally. Distracted driving is a serious and growing threat to road safety. Collisions caused by distracted/inattentive driving have captured the attention of the US Government and professional medical organizations during the last years. They have estimated that distraction and inattention account for somewhere between 25% and 75% of all or near crashes.
 
 ## Abstract
+
 Driver distraction, defined as the diversion of attention away from activities-critical for safe driving, is increasingly recognized as a significant source of injuries and fatalities on the roadway. With an aim to minimize accidents due to distraction, we have developed this live-i which would beep anytime the system detected that the driver had crossed the threshold for unsafe driving. Activities such as looking away, using electronics, improper grip of steering, drowsiness are detectable using this device. Developed as a software/hardware design that could be retrofitted to any vehicle and uses only camera input to alert drivers at times when they are too distracted.
 
 ## Functionalities
+
 Detects
-- [ ]  Using electronics
-- [ ]  Improper grip of steering
-- [ ]  Drowsiness
-- [ ]  Looking away for too long
-- [ ]  Eating,Drinking etc.
+
+- [ ] Using electronics
+- [ ] Improper grip of steering
+- [ ] Drowsiness
+- [ ] Looking away for too long
+- [ ] Eating,Drinking etc.
 
 ## Tech Stack
 
-* Computer Vision:
-    - Mediapipe
-    - OpenCv
-    - Python
-	
-* Web:
-	-  HTML
-	-  CSS
-	-  JAVASCRIPT
-	-  BOOTSTRAP
-	-  FLASK
-* Deployment:
+- Computer Vision:
+  - Mediapipe
+  - OpenCv
+  - Python
+- Web:
+  - HTML
+  - CSS
+  - JAVASCRIPT
+  - BOOTSTRAP
+  - FLASK
+- Deployment:
 
 ## Methodology & Algorithms
 
-- [ ]  CNN
-- [ ]  YOLO
+- [ ] CNN
+- [ ] YOLO
 
 ## Accuracy & Graphs
-* Mobile Net Accuracy
-	- 89.99%
-	- ![alt text](https://raw.githubusercontent.com/tanishq20/Live-i/main/frontend/static/image/mobile_net_accuracy.png)
-* Epoch Accuracy
-	-![alt text](https://raw.githubusercontent.com/tanishq20/Live-i/main/frontend/static/image/accuracy_epoch.png)
-* Epoch Loss
-	-![alt text](https://raw.githubusercontent.com/tanishq20/Live-i/main/frontend/static/image/epoch_loss.png)
 
-## Our Team 
+- Mobile Net Accuracy
+  - 89.99%
+  - ![alt text](https://raw.githubusercontent.com/tanishq20/Live-i/main/frontend/static/image/mobile_net_accuracy.png)
+- Epoch Accuracy -![alt text](https://raw.githubusercontent.com/tanishq20/Live-i/main/frontend/static/image/accuracy_epoch.png)
+- Epoch Loss -![alt text](https://raw.githubusercontent.com/tanishq20/Live-i/main/frontend/static/image/epoch_loss.png)
+
+[PPT Link](https://www.canva.com/design/DAEllxwVT6I/mWjn-9YcdzduczRLFoDlAw/view?utm_content=DAEllxwVT6I&utm_campaign=designshare&utm_medium=link&utm_source=sharebutton)
+
+## Our Team
 
 <table>
 <tr align="center">
-
 
 <td>
 
@@ -82,10 +87,9 @@ Naman Garg
 </p>
 </td>
 
-
 <td>
 
-Mudit Jindal 
+Mudit Jindal
 
 <p align="center">
 <img src = "https://avatars.githubusercontent.com/u/60563356?s=400&u=09a4f1f24803e0bd5cdc674e0fa021ca791fe126&v=4"  height="120"
@@ -98,8 +102,6 @@ alt="Mudit Jindal">
 </a>
 </p>
 </td>
-
-
 
 <td>
 
@@ -154,4 +156,3 @@ alt="Dhanya Sri Aravapalli">
 <p align="center">
 	Made with :heart: by Team HASH</a>
 </p>
-
