@@ -56,6 +56,7 @@ Detects
 * Mobile Net Accuracy
 	- 89.99%
 * Epoch Accuracy
+	-![alt text](https://raw.githubusercontent.com/tanishq20/Live-i/main/frontend/static/image/accuracy_epoch.png)
 * Epoch Loss
 
 ## Our Team 
